@@ -7,14 +7,14 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-hyper = "0.14.12"
-hyper-router = "^0.5"
+hyper = "0.14.19"
+hyper-router = "^0.5.0"
 # To setup some sort of runtime needed by Hyper, we will use the Tokio runtime.
 tokio = { version = "1.8.4" }
 thread_local = "1.1.4"
 regex = "1.5.5"
-crossbeam-utils = "0.8.7"
+crossbeam-utils = "0.8.10"
 
 # (only for testing)
-reqwest = "0.10.4"
-futures = "0.3.5"
+reqwest = "0.11.11"
+futures = "0.3.21"
