@@ -57,7 +57,6 @@ fn main() {
     apply(diary);
 
     // `double` satisfies `apply_to_3`'s trait bound
-    let double = |x| 2 * x;
 
     // async {
     //     let value = async_apply(double).await;
